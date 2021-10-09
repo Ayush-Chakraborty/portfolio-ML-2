@@ -72,7 +72,7 @@ function Header() {
             lastY=y;
         }
         window.addEventListener("scroll",handler)
-    },[])
+    })
    
 
     return (

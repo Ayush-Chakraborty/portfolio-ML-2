@@ -82,7 +82,7 @@ function Aboutme() {
             <aside>
                 <div className="img"></div>
                 <Button>
-                    <a href="https://drive.google.com/file/d/1Ao5lCBwku0IduMMjmQEhrl_lHzwAW0b_/view" target="_blank">CV Link</a>
+                    <a href="https://drive.google.com/file/d/1Ao5lCBwku0IduMMjmQEhrl_lHzwAW0b_/view" target="_blank" rel="noreferrer">CV Link</a>
                 </Button>
             </aside>
             <div className="aboutme__body">

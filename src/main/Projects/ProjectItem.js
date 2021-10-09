@@ -18,7 +18,7 @@ function ProjectItem({title,date,paperList,link,Img,desc}) {
                             </ul>
                         </div>
                     }
-                    <Button><a href={link} target="_blank">Project Link</a></Button>
+                    <Button><a href={link} target="_blank" rel="noreferrer">Project Link</a></Button>
            </div>
                 <p className="projectItem__desc">{desc}</p>
            </div>
