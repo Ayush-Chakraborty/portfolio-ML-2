@@ -29,7 +29,7 @@ const part3 = (refObj, refVal) => {
                 clearTimeout(stop3);
                 resolve();
             }
-        }, 100);
+        }, 60);
     });
 };
 const part2 = (refObj, refVal) => {
@@ -42,7 +42,7 @@ const part2 = (refObj, refVal) => {
                 clearTimeout(stop2);
                 resolve();
             }
-        }, 100);
+        }, 60);
     });
 };
 const part1 = (refObj, refVal) => {
@@ -57,7 +57,7 @@ const part1 = (refObj, refVal) => {
                 clearTimeout(stop1);
                 resolve();
             }
-        }, 90);
+        }, 50);
     });
 };
 
@@ -82,7 +82,13 @@ function Aboutme() {
             <aside>
                 <div className="img"></div>
                 <Button>
-                    <a href="https://drive.google.com/file/d/1Ao5lCBwku0IduMMjmQEhrl_lHzwAW0b_/view" target="_blank" rel="noreferrer">CV Link</a>
+                    <a
+                        href="https://drive.google.com/file/d/1Ao5lCBwku0IduMMjmQEhrl_lHzwAW0b_/view"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        CV Link
+                    </a>
                 </Button>
             </aside>
             <div className="aboutme__body">
@@ -103,11 +109,11 @@ function Aboutme() {
                     Learning.
                 </p>
                 <p>
-                    I am currently interning remotely at the Vision Lab of
-                    University of California, San Diego. Prior to this I have
-                    interned at the University of Florida and the Indian
-                    Institute of Technology, Roorkee and do constantly
-                    collaborate with the Research Group at NIT W.
+                    I am currently interning remotely at the <b>Vision Lab</b> of the
+                   <b> University of California San Diego</b>. Prior to this I have
+                    interned at the <b>University of Florida </b>and the <b>Indian
+                    Institute of Technology Roorkee</b> and do constantly
+                    collaborate with the Research Group at <b>NIT W</b>.
                 </p>
                 <p>
                     I am looking for long-term research opportunities and summer

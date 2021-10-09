@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectItem from './ProjectItem'
 import SectionHeading from '../../UI/sectionHeading/SectionHeading'
 import img1 from './img1.jpeg'
+import img2 from './img2.jpeg'
 function Project() {
     const projectList=[
         {
@@ -26,7 +27,7 @@ function Project() {
             date:"Dec 2020 - Jan 2021",
             paperList:null,
             link:"https://github.com/Soumya296/Neural_Style_transfer",
-            img:"",
+            img:{img2},
             desc:"Designed a simple Convolutional Neural Network using TensorFlow-Keras along with the implementation Open-CV library to detect and identify different Hand-Signs in real-time."
         },
 
