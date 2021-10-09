@@ -5,7 +5,6 @@ const Content= lazy(()=> import('./Content'))
 function App() {
   return (
     <div className="App">
-      
       <Suspense fallback={<Loading/>}>
         <Content/>
       </Suspense>

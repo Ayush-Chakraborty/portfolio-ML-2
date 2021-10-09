@@ -6,6 +6,7 @@ main section{
     padding-top: 4.5rem;
     transition: 1s all ease-in-out;
     opacity: 0;
+    margin-bottom: -1.5rem;
 }
 .appear{
     opacity: 1;

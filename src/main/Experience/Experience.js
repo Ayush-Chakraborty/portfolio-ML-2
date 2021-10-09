@@ -4,16 +4,10 @@ import ExperienceItem from './ExperienceItem'
 function Experience() {
     const experienceList=[
         {
-            title:"Domain Adaptation with Feature Space Extraction with NAS and Adversarial Training "
-            ,clg:"University of California San Diego"
-            ,date:"Sept 2021 - Present"
-            ,desc:"We propose a novel method to establish domain adaptation for computer vision problems. We use three architecture simultaneously as an end-to-end model. Domain Specific and Overall representations are extracted using neural network, encoder block and classifier head. Then with proper operations on the representations we train a classifier on a domain agnostic representation of the image. We train the extractors in an adversarial setting along with the application of Neural Architecture Search Algorithms for better generalizations."
-        },
-        {
-            title:"A novel method to train Machine Learning Models Inspired by Human Learning"
-            ,clg:"University of California San Diego"
-            ,date:"Sept 2021 - Present"
-            ,desc:"In this project we propose a novel training method different than the traditional rather more like Human-Learning. Inspired by the classroom-learning methods such as learning by passing tests, learning by ignoring, learning by interleaving etc. We also implement Neural Architecture search algorithms to establish better generalization. "
+            title:"Inference on the Immunity of Normalization Against Progressive Bit-Flip Attack on Neural Networks"
+            ,clg:"Indian Institute of Technology Roorkee"
+            ,date:"Apr 2021 - Jun 2021"
+            ,desc:"This ICCV paper describes a novel attack by flipping vulnerable bits of weights through a progressive search and iscapable of incapacitating almost any popular Network Architecture by bringing their accuracy below 10% with lessthan 20 bit flips out of several millions of bits. My aim is to gain inference on how different normalization methodslike L2 Norm, Jacobian Norm, Spectral Norm etc. which have proven their efficiency against Adversarial examples,provide immunity against PBFA."
         }
     ]
     return (

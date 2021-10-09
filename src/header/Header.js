@@ -8,6 +8,7 @@ function Header() {
         "about me",
         "education",
         "skills",
+        "experience",
         "projects",
         "achievement",
         "contact"
@@ -25,7 +26,7 @@ function Header() {
         const elements=navItemList.map((item,i)=> 
             document.querySelector(`#${ids[i]}`));
         const height=window.innerHeight;
-        const dist=height-100;
+        const dist=height*0.67;
         let lastY=0;
         let lastElement=0;
         navElements[lastElement].classList.add("navItem__active");
@@ -36,38 +37,47 @@ function Header() {
             )
             const y=window.scrollY
             if(y > lastY){
-                let index=lastElement,maxDist=0;
+                let index=0,maxDist=0;
                 distances.forEach((d,i)=>{
                     if(d>=maxDist && d<dist){
                         maxDist=d;
                         index=i;
                     }
                 })
-                if(index!==lastElement){
-                    navElements[index].classList.add("navItem__active");
-                    if(lastElement!==-1)
-                    navElements[lastElement].classList.remove("navItem__active");
-                    setSection(navItemList[index]);
-                    elements[index].classList.add("appear")
-                    lastElement=index;
-                }
+
+                navElements.forEach((el,i)=>{
+                    if(i===index){
+                        el.classList.add("navItem__active");
+                        elements[i].classList.add("appear")
+                        if(window.innerWidth < 750)
+                        setSection(navItemList[i]);
+                    }
+                    else{
+                        el.classList.remove("navItem__active");
+                    }
+    
+                })
             }
             else{
-                let index=lastElement,minDist=height;
+                let index=0,minDist=height;
                 distances.forEach((d,i)=>{
-                    if(d>100 && d<minDist){
+                    if(d>=0 && d<minDist){
                         minDist=d;
-                        index=Math.max(0,i-1);
+                        index=i;
                     }
                 })
-                if(index!==lastElement){
-                    navElements[index].classList.add("navItem__active");
-                    if(lastElement!==-1)
-                    navElements[lastElement].classList.remove("navItem__active");
-                    elements[index].classList.add("appear")
-                    setSection(navItemList[index]);
-                    lastElement=index;
-                }
+                navElements.forEach((el,i)=>{
+                    if(i===index){
+                        el.classList.add("navItem__active");
+                        elements[i].classList.add("appear")
+                        if(window.innerWidth < 750)
+                        setSection(navItemList[i]);
+                    }
+                    else{
+                        el.classList.remove("navItem__active");
+                    }
+
+                })
             }
             lastY=y;
         }

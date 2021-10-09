@@ -27,7 +27,7 @@ function Project() {
             date:"Dec 2020 - Jan 2021",
             paperList:null,
             link:"https://github.com/Soumya296/Neural_Style_transfer",
-            img:{img2},
+            img:<img src={img2} alt="" className="project__img" />,
             desc:"Designed a simple Convolutional Neural Network using TensorFlow-Keras along with the implementation Open-CV library to detect and identify different Hand-Signs in real-time."
         },
 

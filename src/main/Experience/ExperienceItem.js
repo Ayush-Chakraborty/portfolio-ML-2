@@ -2,7 +2,7 @@ import React from 'react'
 import './experienceItem.css'
 // import DateRangeIcon from '@mui/icons-material/DateRange';
 import Button from '../../UI/button/Button'
-function ExperienceItem({title,clg,date,desc}) {
+function ExperienceItem({title,clg,date,desc,link}) {
     return (
         <div className="experienceItem">
             <div className="experienceItem__data">
@@ -16,9 +16,11 @@ function ExperienceItem({title,clg,date,desc}) {
                     <p>{desc}</p>
                 </div>
             </div>
-            <div className="experienceItem__img">
-                <Button>Go to Project</Button>
-            </div>
+            {link &&
+                <div className="experienceItem__img">
+                    <Button>Go to Project</Button>
+                </div>
+            }
         </div>
     )
 }
