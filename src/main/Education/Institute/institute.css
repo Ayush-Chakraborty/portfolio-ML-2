@@ -1,0 +1,33 @@
+.institute__education{
+    color: #1C98D2;
+    margin-bottom: 15px;
+}
+.institute__name{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.institute__name,.institute__location{
+    display: flex;
+    align-items: center;
+}
+.institute__icon{
+    padding-right: 10px;
+    font-size: 2rem !important;
+}
+.institute{
+    margin-bottom: 40px;
+}
+.institute:last-of-type{
+    margin-bottom: 15px;
+}
+@media (max-width:750px) {
+    .institute__education{
+        font-size:large;
+    }
+    .institute__name{
+        font-size: medium;
+    }
+    .institute__location{
+        font-size: small;
+    }
+}

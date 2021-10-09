@@ -1,0 +1,8 @@
+.sectionHeading{
+    color: #082C3E;
+    border-bottom: #082C3E 3px solid;
+    display: inline-block ;
+    margin-block: 25px 50px ;
+    margin-top: 0;
+    font-size: max(2.5vw, 2rem);
+}

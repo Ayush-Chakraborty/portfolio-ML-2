@@ -1,0 +1,14 @@
+main{
+    padding: 2rem 4vw;
+    width: 100%;
+}
+main section{
+    padding-top: 4.5rem;
+    transition: 1s all ease-in-out;
+    opacity: 0;
+}
+.appear{
+    opacity: 1;
+    
+}
+

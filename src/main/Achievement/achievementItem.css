@@ -1,0 +1,15 @@
+.achievementItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.achievementItem__icon img{
+    width: 30px;
+}
+.achievementItem__icon{
+    flex-shrink: 0;
+    margin-right: 40px;
+}
+.achievementItem__body{
+    color: #0E4560;
+}

@@ -1,0 +1,30 @@
+.skillitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: calc(220px + 1.2rem);
+}
+
+.skillitem__img{
+    height: 100px;
+    width: 100px ;
+    margin-bottom: 20px;
+    transition: all 0.5s ;
+}
+
+.skillitem__img:hover {
+    transform: scale(1.15);
+}
+
+.skillitem__name{
+    color: #115E82;
+    font-weight: 500;
+}
+
+@media (max-width:750px) {
+    .skillitem{
+        width: 45vw;
+    }
+}

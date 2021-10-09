@@ -1,0 +1,26 @@
+.education__div{
+    display: grid;
+    grid-template-columns: auto 7px auto;
+    column-gap: 5vw;
+    justify-content: center;
+}
+
+.education__divider{
+    background-color: #0E4560;
+}
+.education__year{
+    color: #115E82;
+}
+.education__divider:first-of-type{
+    border-radius: 10px 10px 0 0 ;
+}
+.education__last{
+    border-radius:  0 0 10px 10px  ;
+}
+@media (max-width:750px) {
+   .education__year{
+       font-size: larger;
+   }
+}
+
+

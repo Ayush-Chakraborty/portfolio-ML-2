@@ -1,0 +1,33 @@
+.navItem:hover{
+    color: rgba(255, 255, 255, 1) !important;
+}
+.navItem{
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.border{
+    width: 100%;
+    height: 0.2rem;
+    background-color: #1C98D2;
+    transform: scale(0);
+    transition: all 0.4s;
+}
+.navItem:hover .border{
+    transform: scale(1);
+}
+.navItem__active{
+    transform: scale(1);
+}
+
+@media (max-width:750px) {
+    .navItem{
+        margin: 15px;
+    }
+    .navItem:last-of-type{
+        margin-bottom: 20px;
+    }
+    .navItem:first-of-type{
+        margin-top: 20px;
+    }
+}
+
