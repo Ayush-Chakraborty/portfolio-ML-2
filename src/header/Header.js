@@ -43,9 +43,9 @@ function Header() {
                         index=i;
                     }
                 })
-                if(index!=lastElement){
+                if(index!==lastElement){
                     navElements[index].classList.add("navItem__active");
-                    if(lastElement!=-1)
+                    if(lastElement!==-1)
                     navElements[lastElement].classList.remove("navItem__active");
                     setSection(navItemList[index]);
                     elements[index].classList.add("appear")
@@ -60,9 +60,9 @@ function Header() {
                         index=Math.max(0,i-1);
                     }
                 })
-                if(index!=lastElement){
+                if(index!==lastElement){
                     navElements[index].classList.add("navItem__active");
-                    if(lastElement!=-1)
+                    if(lastElement!==-1)
                     navElements[lastElement].classList.remove("navItem__active");
                     elements[index].classList.add("appear")
                     setSection(navItemList[index]);

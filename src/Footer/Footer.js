@@ -15,19 +15,19 @@ function Footer() {
                     <p>soumyadippayra-at-gmail-dot-com</p>
                 </div>
                 <div className="footer_socialMedia">
-                    <a href="mailto: soumyadippayra@gmail.com" className="footer__sm__element"  target="_blank">
+                    <a href="mailto: soumyadippayra@gmail.com" className="footer__sm__element"  target="_blank" rel="noreferrer">
                         <EmailIcon className="footer__icon"/>
                         Mail
                     </a>
-                    <a href="https://www.linkedin.com/in/soumyadip-p-518751100/" className="footer__sm__element" target="_blank">
+                    <a href="https://www.linkedin.com/in/soumyadip-p-518751100/" className="footer__sm__element" target="_blank" rel="noreferrer">
                         <LinkedInIcon className="footer__icon"/>
                         LinkedIn
                     </a>
-                    <a href="https://github.com/Soumya296" className="footer__sm__element" target="_blank">
+                    <a href="https://github.com/Soumya296" className="footer__sm__element" target="_blank" rel="noreferrer">
                         <GitHubIcon className="footer__icon"/>
                         GitHub
                     </a>
-                    <a href="https://www.facebook.com/soumyadip.payra" className="footer__sm__element" target="_blank">
+                    <a href="https://www.facebook.com/soumyadip.payra" className="footer__sm__element" target="_blank" rel="noreferrer">
                         <FacebookRoundedIcon className="footer__icon"/>
                         Facebook
                     </a>

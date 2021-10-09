@@ -13,7 +13,8 @@ function ProjectItem({title,date,paperList,link,Img,desc}) {
                             <h3 className="projectItem__paperHeading">Implementation of Paper:</h3>
                             <ul className="projectItem__paperList">
                                 {paperList.map(({paperName,paperLink})=> 
-                                <li className="projectItem__paperListItem">  <a href={paperLink} target="_blank">{paperName}</a> </li>)}
+                                <li className="projectItem__paperListItem">  <a href={paperLink} target="_blank" rel="noreferrer">
+                                    {paperName}</a> </li>)}
                             </ul>
                         </div>
                     }
