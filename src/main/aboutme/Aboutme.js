@@ -83,7 +83,7 @@ function Aboutme() {
                 <div className="img"></div>
                 <Button>
                     <a
-                        href="https://drive.google.com/file/d/1Ao5lCBwku0IduMMjmQEhrl_lHzwAW0b_/view"
+                        href="https://drive.google.com/file/d/15xlJYOJmoAJFShSx2ViNR1fqPBXYBg9l/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                     >
