@@ -1,15 +1,15 @@
-.experienceItem{
+.experienceItem {
     position: relative;
     margin-bottom: 40px;
 }
-.experienceItem__img{
+.experienceItem__img {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
     width: clamp(200px, 50%, 600px);
     transform: scaleX(0);
-    background-color:#04213081 ;
+    background-color: #04213081;
     position: absolute;
     left: 0;
     top: 0;
@@ -17,45 +17,60 @@
     transition: all 0.5s ease-in-out;
     transform-origin: left;
     border-top-right-radius: 10px;
-    border-bottom-right-radius : 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .experienceItem:hover .experienceItem__img {
     transform: scaleX(1);
 }
-.experienceItem__data{
+.experienceItem__data {
     display: flex;
     text-align: justify;
 }
-.experienceItem__leftbar{
+.experienceItem__leftbar {
     width: 5px;
     flex-shrink: 0;
     background-color: #042130;
     border-radius: 5px;
     margin-right: 2rem;
 }
-.experienceItem__title{
-    color: #185A79;
+.experienceItem__title {
+    color: #185a79;
     font-size: clamp(1.3rem, 2vw, 2rem);
+    text-align: left;
 }
-.experienceItem__clgDate{
+.experienceItem__clgDate {
     display: flex;
     justify-content: space-between;
-    color: #018BCC;
+    color: #018bcc;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
-.experienceItem__clgDate h2{
+.experienceItem__clgDate h2 {
     font-size: clamp(1.15rem, 1.4vw, 1.4rem);
     text-align: left;
 }
-.experienceItem h2:nth-of-type(1){
+.experienceItem h2:nth-of-type(1) {
     margin-right: 20px;
 }
-
-
-@media (max-width:750px) {
-    .experienceItem__leftbar{
+.experienceItem h2:nth-of-type(2) {
+    font-size: clamp(1rem, 1.1vw, 1.2rem);
+    font-weight: 500;
+}
+.experienceItem h3 {
+    font-size: clamp(1.1rem, 1.25vw, 1.3rem);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.experienceItem__data p a {
+    text-decoration: underline;
+    color: #018bccb0;
+}
+@media (max-width: 750px) {
+    .experienceItem__leftbar {
         margin-right: 1rem;
     }
- }
+    .experienceItem__data {
+        text-align: left;
+    }
+}
