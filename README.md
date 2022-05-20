@@ -1,5 +1,7 @@
 # Portfolio Site Using React 
 
-This is portfolio site of Soumyadip Payra
+## Portfolio site of ML Engineer
+- Responsive web design
+- React based website
 
-Designed & Developed by Ayush Chakraborty
+🔗 Site link: [soumyadip.nitw.in](https://soumyadip.nitw.in/)
